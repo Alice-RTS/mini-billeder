@@ -34,6 +34,7 @@
         display: flex;
         gap: 1rem;
         justify-content: center;
+        flex-wrap: wrap;
        
        
     }
@@ -47,4 +48,11 @@
     body{
         background-image: linear-gradient(#000000, rgb(3, 3, 86));
         background-attachment: fixed; 
+    }
+
+    .header{
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
     }
